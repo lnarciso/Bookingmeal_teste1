@@ -1,11 +1,19 @@
 package application;
 
-public class App {
+import controller.GestorCliente;
+import misc.MData;
 
-	public static void main(String[] args) {
+public class App {
 		
-		System.out.println("Hellogh World ");
+		public static void main(String[] args) {
+			//System.out.println(" Hello World ");
+			
+			MData.fillData();
+			
+			GestorCliente gc = new GestorCliente();
+			gc.addClient(MData.cl);
+
+		}
 		
 	}
 
-}
