@@ -11,7 +11,7 @@ public class Reserva {
 		super();
 		this.nome_Res = nome_Res;
 		this.morada_Res = morada_Res;
-		Contato_Res = contato_Res;
+		this.Contato_Res = contato_Res;
 		this.nome_Cli = nome_Cli;
 		this.morada_Cli = morada_Cli;
 		this.contato_Cli = contato_Cli;
