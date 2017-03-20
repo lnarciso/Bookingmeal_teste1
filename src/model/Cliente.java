@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Cliente {
 	
 	private String nome;
@@ -57,6 +59,7 @@ public class Cliente {
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	
 	
 
